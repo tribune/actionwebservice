@@ -7,8 +7,6 @@ Gem::Specification.new do |s|
 
   s.author = "Leon Breedt, Kent Sibilev, Tony Coconate"
   s.email = "bitserf@gmail.com, ksibilev@yahoo.com, me@tonycoconate.com"
-  s.rubyforge_project = "aws"
-  s.homepage = "http://www.rubyonrails.org"
 
   s.add_dependency('actionpack', '>= 2.3.3')
   s.add_dependency('activerecord', '>= 2.3.3')
