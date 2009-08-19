@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.name = 'actionwebservice'
   s.summary = "Web service support for Action Pack."
   s.description = %q{Adds WSDL/SOAP and XML-RPC web service support to Action Pack}
-  s.version = '2.3.3'
+  s.version = '2.3.4'
 
   s.author = "Leon Breedt, Kent Sibilev, Tony Coconate"
   s.email = "bitserf@gmail.com, ksibilev@yahoo.com, me@tonycoconate.com"
 
-  s.add_dependency('actionpack', '>= 2.3.3')
-  s.add_dependency('activerecord', '>= 2.3.3')
+  s.add_dependency('actionpack', '>= 2.3.2')
+  s.add_dependency('activerecord', '>= 2.3.2')
 
   s.has_rdoc = true
   s.requirements << 'none'
